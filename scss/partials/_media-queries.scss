@@ -1,0 +1,122 @@
+/*||=====> DEVICE DIMENSION >= 375px <=====||*/
+@media (min-width: 375px) {
+    .bg-transition-up {
+        background-size: contain;
+    }
+    
+    .bg-transition-down {
+        background-size: contain;
+    }
+}
+
+/*||=====> DEVICE DIMENSION >= 576px <=====||*/
+@media (min-width: 576px) {
+    nav {
+        ul {
+            a {
+                li {
+                    min-width: 20rem;
+                }
+            }
+        }
+    } 
+
+    #profesional-image {
+        display: block;
+    }
+
+    #social-media-footer-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+}
+
+/*||=====> DEVICE DIMENSION >= 768px <=====||*/
+@media (min-width: 768px) {
+    nav {
+        ul {
+            a {
+                li {
+                    min-width: 25rem;
+                }
+            }
+        }
+    } 
+ 
+    .logo-1 {
+        display: none;
+    }
+
+    .logo-2 {
+        display: block;
+    }
+
+    #home-about-me {
+        button {
+            margin-bottom: 0rem;
+        }
+    }
+}
+
+/*||=====> DEVICE DIMENSION >= 1024px <=====||*/
+@media (min-width: 1024px) {
+    nav {
+        div {
+            ul {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly; 
+                a {
+                    li {
+                        min-width: 18rem;
+                        margin: 0 3rem 0 3rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .grid-items-2 {
+        min-width: 25rem;
+        min-height: 25rem;
+        border-radius: 50%;
+    }
+
+    .therapy-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+            img {
+                align-self: center;
+            }
+    }
+
+    .small-therapy-image {
+        display: none;
+    }
+
+    .large-therapy-image {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .therapy-parragraph {
+        max-width: 50vw;
+    }
+}
+
+/*||=====> DEVICE DIMENSION >= 1440px <=====||*/
+@media (min-width: 1440px) {
+    body {
+        font-size: 120%;
+    }
+
+    .deco-1 {
+        display: block;
+    }
+
+    .deco-2 {
+        display: none;
+    }
+}

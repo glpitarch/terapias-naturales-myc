@@ -1,0 +1,14 @@
+@import "./partials/reset";
+@import "./partials/box-model";
+@import "./partials/colors";
+@import "./partials/display";
+@import "./partials/flexbox";
+@import "./partials/font";
+@import "./partials/position";
+@import "./partials/text";
+
+/*||=====> CUSTOM STYLES <=====||*/
+@import "./partials/custom-styles-for-new-project/custom-styles";
+
+/*||=====> MEDIA QUERIES <=====||*/
+@import "./partials/media-queries";

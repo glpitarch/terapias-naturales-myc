@@ -1,0 +1,32 @@
+@keyframes scroll {
+    0% {
+        transform: translateX(100vw);
+    }
+    100% {
+        transform: translateX(calc((-2160px)));
+    }
+}
+
+@keyframes spin {
+    0% {
+        rotate: y 0deg;
+    }
+    100% {
+        rotate: y 360deg;
+    }
+}
+
+@keyframes color-change {
+    0% {}
+    25% {
+        color: white;
+    }
+    50% {
+        color: white;
+        background-color: palevioletred;      
+    }
+    75% {
+        color: white;
+    }
+    100% {}
+}

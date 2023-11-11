@@ -1,0 +1,7 @@
+$rem-values-for-border-radius: 15;
+
+@for $i from 0 through $rem-values-for-border-radius { 
+    .border-radius-#{$i} {
+      border-radius: $i*1px; 
+    }
+}

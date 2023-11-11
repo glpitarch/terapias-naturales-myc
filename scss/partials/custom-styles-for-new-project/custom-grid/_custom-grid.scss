@@ -1,0 +1,36 @@
+.grid-container-1 {
+    display: grid;
+    grid-template-columns: repeat(
+        auto-fill,
+        minmax(280px, 1fr)
+    );
+    gap: 3rem;
+    max-width: 840px;
+    margin: 0 auto;
+}
+
+.grid-items-2 {
+    background-color: rgba($color: #ffffff, $alpha: 0.8);
+    min-width: 260px;
+    max-width: 17rem;
+    height: auto;
+    border-radius: 15%;
+    box-shadow: 5px 10px #888888;
+    margin: 0 auto;
+}
+
+.last-grid-item-2 {
+    @extend .grid-items-2;
+    margin: 5rem auto;
+}
+
+.grid-container-2 {
+    display: grid;
+    grid-template-columns: repeat(
+        auto-fill,
+        minmax(270px, 1fr)
+    );
+    gap: 5rem;
+    max-width: 840px;
+    margin: 0 auto;
+}

@@ -1,0 +1,12 @@
+$indent-value: 3rem;
+$line-height-percentage: 0.1;
+
+.indent {
+    text-indent: $indent-value;
+}
+
+@for $i from 0 through 8 { 
+    .line-height-#{$i} {
+      line-height: 1+($line-height-percentage*$i); 
+    }
+}

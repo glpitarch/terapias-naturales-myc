@@ -1,0 +1,45 @@
+$custom-color-1: rgba(248, 213, 228, 0.65);
+$custom-color-2: rgba(0, 0, 0, 0);
+$custom-color-3: rgba(0, 0, 0, 0);
+
+/*||=====> TEXT COLORS <=====||*/
+
+.ctext-color-1 {
+    color: $custom-color-1
+}
+
+.ctext-color-2 {
+    color: $custom-color-2 
+}
+
+.ctext-color-3 {
+    color: $custom-color-3;    
+}
+
+/*||=====> BACKGROUND COLORS <=====||*/
+
+.cbg-color-1 {
+    background-color: $custom-color-1;
+}
+
+.cbg-color-2 {
+    background-color: $custom-color-2;
+}
+
+.cbg-color-3 {
+    background-color: $custom-color-3;
+}
+
+/*||=====> BORDER COLORS <=====||*/
+
+.cborder-color-1 {
+    border-color: $custom-color-1;
+}
+
+.cborder-color-2 {
+    border-color: $custom-color-2;
+}
+
+.cborder-color-3 {
+    border-color: $custom-color-3;
+}

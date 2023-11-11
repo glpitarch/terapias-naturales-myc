@@ -1,0 +1,53 @@
+.position-static {
+    position: static;
+}
+
+.position-relative {
+    position: relative;
+}
+
+.position-absolute {
+    position: absolute;
+}
+
+.position-fixed {
+    position: fixed;
+}
+
+.position-sticky {
+    position: sticky;
+}
+
+$percentage: 20;
+
+@for $i from 0 through $percentage { 
+    .top-#{$i} {
+        top: $i*5; 
+    }
+}
+
+@for $i from 0 through $percentage { 
+    .right-#{$i} {
+        right: $i*5; 
+    }
+}
+
+@for $i from 0 through $percentage { 
+    .bottom-#{$i} {
+        bottom: $i*5; 
+    }
+}
+
+@for $i from 0 through $percentage { 
+    .left-#{$i} {
+        left: $i*5; 
+    }
+}
+
+$z-index: 2;
+
+@for $i from -2 through $z-index { 
+    .z-index-#{$i} {
+        z-index: $i+1; 
+    }
+}

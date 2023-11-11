@@ -1,0 +1,85 @@
+.logo-1 {
+    width: 100%;
+    max-width: 576px;
+}
+
+.logo-2 {
+    width: 100%;
+    display: none;
+}
+
+.deco-1 {
+    display: none;
+}
+
+.nav-li {
+    max-width: 280px;
+    padding: 1rem 0 1rem 0;
+    margin: 1rem 0 1rem 0;
+    border: none;
+    border-radius: 0.5rem;
+    opacity: 0.70;
+    background-color: rgba(243, 142, 186, 0.75);
+}
+
+.home-button {  
+    width: 200px;
+    max-width: 280px;
+    padding: 1rem 0 1rem 0;
+    border: none;
+    border-radius: 0.5rem;
+    opacity: 0.75;
+    background-color: rgba(243, 142, 186, 0.75);
+}
+
+.bg-transition-up {
+    background-image: url(./../assets/images/background/brand-bg-color-up.png);
+    background-size: cover;
+    min-height: 10rem;
+    width: 100%;
+}
+
+.bg-transition-down {
+    background-image: url(./../assets/images/background/brand-bg-color-down.png);
+    background-size: cover;
+    min-height: 10rem;
+    width: 100%;
+}
+
+.therapy-container {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    text-align: center;
+}
+
+.therapy-parragraph {
+    margin: 0 1rem;
+    text-align: left;
+}
+
+.figcaption-container {
+    margin: 0 auto;
+    border-radius: 15px;
+    max-width: 50%;
+}
+
+.small-therapy-image {
+    display: block;
+    margin-bottom: 2rem;
+}
+
+.large-therapy-image {
+    display: none;
+}
+
+.unordered-list {
+    line-height: 1.8;
+    text-align: left;
+    margin: 2rem;
+        li {
+            list-style: inside url(./../assets/images/others/pink_validation.png);
+            margin: 1rem auto;
+        }
+}
+

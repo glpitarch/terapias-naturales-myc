@@ -1,0 +1,155 @@
+$rem-values-for-margin-padding: 10;
+
+/*||=====> MARGINS <=====||*/
+.m-02e5 {
+    margin: 0.5rem;
+}
+
+@for $i from 0 through $rem-values-for-margin-padding { 
+    .m-#{$i} {
+      margin: $i*1rem; 
+    }
+}
+
+/*||=====> MARGIN +Y-Y <=====||*/
+.my-02e5 {
+    margin: 0.5rem 0 0.5rem 0;
+}
+
+@for $i from 0 through $rem-values-for-margin-padding { 
+  .my-#{$i} {
+    margin: $i*1rem 0 $i*1rem 0;
+  }
+}
+
+/*||=====> MARGIN +Y <=====||*/
+.mt-02e5 {
+    margin: 0.5rem 0 0 0;
+}
+
+@for $i from 0 through $rem-values-for-margin-padding { 
+    .mt-#{$i} {
+      margin: $i*1rem 0 0 0;
+    }
+}
+
+/*||=====> MARGIN -Y <=====||*/
+.mb-02e5 {
+    margin: 0 0 0.5rem 0;
+}
+
+@for $i from 0 through $rem-values-for-margin-padding { 
+    .mb-#{$i} {
+      margin: 0 0 $i*1rem 0;
+    }
+}
+
+/*||=====> MARGIN +X-X <=====||*/
+.mx-02e5 {
+    margin: 0 0.5rem 0 0.5rem;
+}
+
+@for $i from 0 through $rem-values-for-margin-padding { 
+    .mx-#{$i} {
+      margin: 0 $i*1rem 0 $i*1rem;
+    }
+}
+
+/*||=====> MARGIN +X <=====||*/
+.mr-02e5 {
+    margin: 0 0.5rem 0 0;
+}
+
+@for $i from 0 through $rem-values-for-margin-padding { 
+    .mr-#{$i} {
+      margin: 0 $i*1rem 0 0;
+    }
+}
+
+/*||=====> MARGIN -X <=====||*/
+.ml-02e5 {
+    margin: 0 0 0 0.5rem;
+}
+
+@for $i from 0 through $rem-values-for-margin-padding { 
+    .ml-#{$i} {
+      margin: 0 0 0 $i*1rem;
+    }
+}
+
+/*||=====> PADDINGS <=====||*/
+.p-02e5 {
+    padding: 0.5rem;
+}
+
+@for $i from 0 through $rem-values-for-margin-padding { 
+    .p-#{$i} {
+      padding: $i*1rem; 
+    }
+}
+
+/*||=====> PADDING +Y-Y <=====||*/
+.py-02e5 {
+    padding: 0.5rem 0 0.5rem 0;
+}
+
+@for $i from 0 through $rem-values-for-margin-padding { 
+  .py-#{$i} {
+    padding: $i*1rem 0 $i*1rem 0;
+  }
+}
+
+/*||=====> PADDING +Y <=====||*/
+.pt-02e5 {
+    padding: 0.5rem 0 0 0;
+}
+
+@for $i from 0 through $rem-values-for-margin-padding { 
+  .pt-#{$i} {
+    padding: $i*1rem 0 0 0;
+  }
+}
+
+/*||=====> PADDING -Y <=====||*/
+.pb-02e5 {
+    padding: 0 0 0.5rem 0;
+}
+
+@for $i from 0 through $rem-values-for-margin-padding { 
+  .pb-#{$i} {
+    padding: 0 0 $i*1rem 0; 
+  }
+}
+
+/*||=====> PADDING +X-X <=====||*/
+.px-02e5 {
+    padding: 0 0.5rem 0 0.5rem;
+}
+
+@for $i from 0 through $rem-values-for-margin-padding { 
+  .px-#{$i} {
+    padding: 0 $i*1rem 0 $i*1rem;
+  }
+}
+
+/*||=====> PADDING +X <=====||*/
+.pr-02e5 {
+    padding: 0 0.5rem 0 0;
+}
+
+@for $i from 0 through $rem-values-for-margin-padding { 
+  .pr-#{$i} {
+    padding: 0 $i*1rem 0 0;
+  }
+}
+
+/*||=====> PADDING -X <=====||*/
+.pl-02e5 {
+    padding: 0 0 0 0.5rem; 
+}
+
+@for $i from 0 through $rem-values-for-margin-padding { 
+  .pl-#{$i} {
+    padding: 0 0 0 $i*1rem; 
+  }
+}

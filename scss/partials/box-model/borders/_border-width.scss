@@ -1,0 +1,7 @@
+$rem-values-for-border-width: 10;
+
+@for $i from 0 through $rem-values-for-border-width { 
+    .border-width-#{$i} {
+      border-width: $i*1px; 
+    }
+}

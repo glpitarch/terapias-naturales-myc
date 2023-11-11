@@ -1,0 +1,49 @@
+#home-about-me-section, 
+#about-me-section {
+    background-color: rgba(248, 213, 228, 0.65);
+    min-height: 600px;
+}
+
+#about-me-section {
+    ul {
+        li {
+            p {
+                font-family: Send Flowers;
+                font-size: 24px;
+            }
+        }
+    }
+}
+
+#home-about-me-paragraph, 
+#about-me-paragraph {
+    margin: 0 10vw;
+    text-align: center;
+}
+
+#home-therapies-section {
+    background-image: url(./../assets/images/background/brand-bg-color-up.png);
+    background-size: cover;
+        p {
+            margin: 0 10vw;
+        }
+}
+
+#home-contact-section {
+    background-image: url(./../assets/images/background/brand-bg-color-down.png);
+    background-size: cover;
+    min-height: 700px;
+        p {
+            margin: 0 10vw;
+        }
+}
+
+#contact-section {
+    #contact-whatsapp-div {
+        background-color: rgba(248, 213, 228, 0.65);
+        width: 100%;
+    }
+}
+
+
+

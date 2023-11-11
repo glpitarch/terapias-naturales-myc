@@ -1,0 +1,59 @@
+$rem-values-for-content: 50;
+$percentage-values-for-content: 4; 
+
+/*||=====> CONTENT DIMENSION <=====||*/
+/*||=====> WIDTH REM <=====||*/
+@for $i from 0 through $rem-values-for-content { 
+  .width-#{$i} {
+    width: $i*1rem; 
+  }
+}
+
+/*||=====> WIDTH PERCENTAGE <=====||*/
+@for $i from 0 through $percentage-values-for-content { 
+  .width-#{$i}p {
+    width: $i*25%; 
+  }
+}
+
+/*||=====> MIN WIDTH <=====||*/
+@for $i from 0 through $rem-values-for-content { 
+  .min-width-#{$i} {
+    min-width: $i*1rem; 
+  }
+}
+
+/*||=====> MAX WIDTH <=====||*/
+@for $i from 0 through $rem-values-for-content { 
+  .max-width-#{$i} {
+    max-width: $i*1rem; 
+  }
+}
+
+/*||=====> HEIGHT <=====||*/
+@for $i from 0 through $rem-values-for-content { 
+  .height-#{$i} {
+    height: $i*1rem; 
+  }
+}
+
+/*||=====> HEIGHT PERCENTAGE <=====||*/
+@for $i from 0 through $percentage-values-for-content { 
+  .height-#{$i}p {
+    height: $i*25%; 
+  }
+}
+
+/*||=====> MIN HEIGHT <=====||*/
+@for $i from 0 through $rem-values-for-content { 
+  .min-height-#{$i} {
+    min-height: $i*1rem; 
+  }
+}
+
+/*||=====> MAX HEIGHT <=====||*/
+@for $i from 0 through $rem-values-for-content { 
+  .max-height-#{$i} {
+    max-height: $i*1rem; 
+  }
+}
