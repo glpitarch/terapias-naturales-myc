@@ -2555,6 +2555,8 @@ p {
     min-width: 20rem; }
   #profesional-image {
     display: block; }
+  #profesional-image-2 {
+    display: none; }
   #social-media-footer-container {
     display: flex;
     flex-direction: row;
